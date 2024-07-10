@@ -1,0 +1,136 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: black;
+  color: white;
+  line-height: 1.6;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 64, 50, 0.8),
+    rgba(71, 17, 116, 0.9)
+  ), url("../images/background.jpg") no-repeat center center/cover;
+  padding-bottom: 30px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.header {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+.nav-links i {
+  margin-right: 5px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.main-content {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.main-content > div {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group input, .form-group textarea {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2)
+}
+
+.form-group textarea {
+  min-height: 130px;
+  resize: none;
+  overflow: hidden;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.text-content h1 {
+  font-size: 50px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 20px;
+}
+
+.btn {
+  width: 100%;
+  background: #ff4032;
+  color: white;
+  border: 0;
+  box-shadow: none;
+  padding: 10px;
+  border-radius: 17px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background: #ff5c4d;
+}
+
+/* background styles */
+/* .wrapper {
+  min-height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 64, 50, 0.8),
+      rgba(71, 17, 116, 0.9)
+    ),
+    url('../images/background.jpg') no-repeat center/cover;
+} */
+
+/* text area bg rgba(255, 255, 255, 0.2) */
+/* linear gradient linear-gradient(
+      to bottom,
+      rgba(255, 64, 50, 0.8),
+      rgba(71, 17, 116, 0.9)
+    ) */
+/* Button colors
+  #ff4032;
+  hover 
+  #ff5c4d;
+*/
+
